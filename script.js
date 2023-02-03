@@ -13,3 +13,13 @@ function update(){
 }
 
 setInterval(update,1000);
+
+
+
+
+function titlechange(){
+    var t1 = String(m) + String(" : ") + String(s);
+    document.title = t1;
+    }
+
+    setInterval(titlechange, 1000);
