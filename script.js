@@ -10,7 +10,7 @@ function update(){
         s = 60;
         m--;
     }
-    if (m == 0) {
+    if (m << 0) {
         clearInterval(update);
         alert("Acabou o tempo !");
     }
