@@ -1,6 +1,6 @@
 var s = 60;
 var m1 = prompt("Quantos minutos?")
-var m = m1;
+var m = m1 - 1;
 
 function update(){
     s--;
@@ -14,6 +14,7 @@ function update(){
         clearInterval(update);
         alert("Acabou o tempo !");
     }
+   
 }
 
 setInterval(update,1000);
